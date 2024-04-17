@@ -81,3 +81,20 @@ function fadeBtns (div) {
         div.children[IMAGE_ELEM_INDEX + 1].classList.remove("opacity-50");
     }
 }
+
+const initApp = () => {
+    const hamburgerBtn = document.getElementById('hamburger-button');
+    const nav = document.querySelector('nav');
+
+    const toggleMenu = () => {
+        nav.classList.toggle('hidden');
+        nav.classList.toggle('block');
+        hamburgerBtn.classList.toggle('toggle-btn');
+
+    }
+
+    hamburgerBtn.addEventListener('click', toggleMenu);
+    nav.addEventListener('click', toggleMenu);
+}
+
+document.addEventListener('DOMContentLoaded', initApp);

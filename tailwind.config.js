@@ -15,9 +15,6 @@ module.exports = {
         'sect': "calc(100vh - 136px)",
       }
     },
-    // colors: {
-    //   "bg-theme-blue": "#003585"
-    // }
   },
   plugins: [],
 }
