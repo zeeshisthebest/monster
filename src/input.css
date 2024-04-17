@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 640px) {
+    .sm\:row-direction:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .sm\:row-direction:nth-child(odd) {
+        flex-direction: row;
+    }
+}

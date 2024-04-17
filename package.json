@@ -1,0 +1,15 @@
+{
+  "name": "car_project",
+  "version": "1.0.0",
+  "description": "a project to practice the tailwind css",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tw": "npx tailwindcss -i ./src/input.css -o ./build/assets/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "author": "Muhammad Zeeshan",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
