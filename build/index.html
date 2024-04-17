@@ -1,284 +1,548 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monsters</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon" />
-</head>
+  </head>
 
-<body class="bg-slate-950 min-h-screen min-w-96 text-slate-200 font-sans flex flex-col">
+  <body
+    class="bg-slate-950 min-h-screen min-w-96 text-slate-200 font-sans flex flex-col"
+  >
     <header
-        class="flex items-center relative flex-row flex-nowrap bg-theme-blue md:px-42 lg:px-52 px-10 min-h-[56px] justify-between flex-grow-0">
-        <h1 class="text-3xl">World of Monsters</h1>
-        <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer relative w-8 h-8">
-            <div
-                class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:h-1 before:w-8 before:absolute before:rounded before:transition-all before:duration-500 before:-translate-x-4 before:-translate-y-3 after:content-[''] after:bg-white after:h-1 after:w-8 after:absolute after:rounded after:transition-all after:duration-500 after:-translate-x-4 after:translate-y-3">
-            </div>
-        </button>
+      class="flex items-center relative flex-row flex-nowrap bg-theme-blue md:px-42 lg:px-52 px-10 min-h-[56px] justify-between flex-grow-0"
+    >
+      <h1 class="text-3xl">World of Monsters</h1>
+      <button
+        id="hamburger-button"
+        class="text-3xl md:hidden cursor-pointer relative w-8 h-8"
+      >
+        <div
+          class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:h-1 before:w-8 before:absolute before:rounded before:transition-all before:duration-500 before:-translate-x-4 before:-translate-y-3 after:content-[''] after:bg-white after:h-1 after:w-8 after:absolute after:rounded after:transition-all after:duration-500 after:-translate-x-4 after:translate-y-3"
+        ></div>
+      </button>
 
-        <nav class="md:flex hidden justify-end md:relative absolute md:bg-transparent bg-theme-blue z-50 md:w-6/12 w-full top-[56px] md:top-0 left-0 md:left-auto text-center font-bold border-t-2 md:border-t-0 border-t-theme-blue-600 md:text-xl text-lg"
-            aria-label="main navigation">
-            <a class="md:inline-block block h-max py-4 px-5 m-0 hover:bg-theme-blue-300" href="#home">Home</a>
-            <a class="md:inline-block block h-max py-4 px-5 m-0 hover:bg-theme-blue-300" href="#fleet">Our Trucks</a>
-            <a class="md:inline-block block h-max py-4 px-5 m-0 hover:bg-theme-blue-300" href="#gallery">Gallery</a>
-        </nav>
+      <nav
+        class="md:flex hidden justify-end md:relative absolute md:bg-transparent bg-theme-blue z-50 md:w-6/12 w-full top-[56px] md:top-0 left-0 md:left-auto text-center font-bold border-t-2 md:border-t-0 border-t-theme-blue-600 md:text-xl text-lg"
+        aria-label="main navigation"
+      >
+        <a
+          class="md:inline-block block h-max py-4 px-5 m-0 hover:bg-theme-blue-300"
+          href="#home"
+          >Home</a
+        >
+        <a
+          class="md:inline-block block h-max py-4 px-5 m-0 hover:bg-theme-blue-300"
+          href="#fleet"
+          >Our Trucks</a
+        >
+        <a
+          class="md:inline-block block h-max py-4 px-5 m-0 hover:bg-theme-blue-300"
+          href="#gallery"
+          >Gallery</a
+        >
+      </nav>
     </header>
     <!-- Home -->
     <div class="flex-grow md:flex-grow-0">
-        <section id="home"
-            class="md:min-h-sect md:items-center max-h-sect w-11/12 mx-auto my-10 lg:w-9/12 flex overflow-hidden relative">
-            <h1
-                class="xl:text-8xl md:text-5xl text-4xl font-bold md:relative absolute top-1/3 left-0 right-0 p-5 bg-opacity-40 md:bg-transparent bg-black">
-                Welcome to the <span class="text-[#febA02]">World of Monsters</span>
-                <p
-                    class="md:block hidden relative left-0 text-lg bottom-0 translate-y-5 ps-6 text-[#ABFF03] before:content-['\201C'] before:text-3xl before:absolute before:left-0 before:top-0 after:text-3xl before:translate-y-3 after:text-slate-200 before:text-slate-200 after:content-['\201D'] after:translate-x-2 after:absolute after:-translate-y-2">
-                    WE GO WHERE NO ONE GOES
-                </p>
-            </h1>
-            <img src="img/bg3.jpeg" alt="background_image" class="md:w-6/12 md:object-contain object-cover" />
-        </section>
-        <hr class="mb-14 w-1/3 mx-auto" />
-        <!-- Our Cars -->
-        <section id="fleet"
-            class="scroll-m-5 w-11/12 lg:w-9/12 md:w-10/122 bg-slate-900 mx-auto px-8 py-10 rounded-md mb-4">
-            <h2 class="text-4xl font-bold text-center mb-14">
-                The Monsters We Own
-            </h2>
+      <section
+        id="home"
+        class="md:min-h-sect md:items-center max-h-sect w-11/12 mx-auto my-10 lg:w-9/12 flex overflow-hidden relative"
+      >
+        <h1
+          class="xl:text-8xl md:text-5xl text-4xl font-bold md:relative absolute top-1/3 left-0 right-0 p-5 bg-opacity-40 md:bg-transparent bg-black"
+        >
+          Welcome to the <span class="text-[#febA02]">World of Monsters</span>
+          <p
+            class="md:block hidden relative left-0 text-lg bottom-0 translate-y-5 ps-6 text-[#ABFF03] before:content-['\201C'] before:text-3xl before:absolute before:left-0 before:top-0 after:text-3xl before:translate-y-3 after:text-slate-200 before:text-slate-200 after:content-['\201D'] after:translate-x-2 after:absolute after:-translate-y-2"
+          >
+            WE GO WHERE NO ONE GOES
+          </p>
+        </h1>
+        <img
+          src="img/bg3.jpeg"
+          alt="background_image"
+          class="md:w-6/12 md:object-contain object-cover"
+        />
+      </section>
+      <hr class="mb-14 w-1/3 mx-auto" />
+      <!-- Our Cars -->
+      <section
+        id="fleet"
+        class="scroll-m-5 w-11/12 lg:w-9/12 md:w-10/12 bg-slate-900 mx-auto px-8 py-10 rounded-md mb-4"
+      >
+        <h2 class="text-4xl font-bold text-center mb-14">
+          The Monsters We Own
+        </h2>
 
-            <div class="mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2">
-                <figure class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain">
-                    <img src="img/bed_truck.png" alt="bed_truck" />
-                    <figcaption class="text-center text-slate-400">
-                        Fig1. Bed Truck
-                    </figcaption>
-                </figure>
-                <p class="h-min self-cente lg:text-xl text-justify">
-                    The Bed Truck is a colossal beast on wheels, resembling a massive flatbed truck equipped with
-                    towering metal structures resembling a canopy. Its bed is transformed into a rugged battlefield,
-                    strewn with debris and obstacles, ready to conquer any terrain in its path. With its imposing
-                    presence and unstoppable momentum, the Bed Truck dominates the arena, crushing everything in its
-                    wake with sheer force and determination.&nbsp;
-                    <a href="#" class="text-base underline underline-offset-2 text-teal-600">Read More...</a>
-                </p>
-            </div>
-            <div
-                class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2">
-                <figure class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain">
-                    <img src="img/death_truck.png" alt="death_truck" />
-                    <figcaption class="text-center text-slate-400">
-                        Fig2. Death Truck
-                    </figcaption>
-                </figure>
-                <p class="h-min self-center lg:text-xl text-justify">
-                    The Death Truck is a sinister specter, a monstrous machine shrouded in darkness and adorned with
-                    ominous symbols of doom. Its sinister silhouette strikes fear into the hearts of its opponents, as
-                    it prowls the arena like a predatory beast on the hunt. With razor-sharp blades protruding from
-                    every angle and a menacing aura that chills the air, the Death Truck leaves a trail of devastation
-                    in its wake, harvesting souls with merciless efficiency.&nbsp;<a href="#"
-                        class="text-base underline underline-offset-2 text-teal-600">Read
-                        More...</a>
-                </p>
-            </div>
+        <div
+          class="mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2"
+        >
+          <figure
+            class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain"
+          >
+            <img src="img/bed_truck.png" alt="bed_truck" />
+            <figcaption class="text-center text-slate-400">
+              Fig1. Bed Truck
+            </figcaption>
+          </figure>
+          <p class="h-min self-cente lg:text-xl text-justify">
+            The Bed Truck is a colossal beast on wheels, resembling a massive
+            flatbed truck equipped with towering metal structures resembling a
+            canopy. Its bed is transformed into a rugged battlefield, strewn
+            with debris and obstacles, ready to conquer any terrain in its path.
+            With its imposing presence and unstoppable momentum, the Bed Truck
+            dominates the arena, crushing everything in its wake with sheer
+            force and determination.&nbsp;
+            <a
+              href="bed_detail.html"
+              class="text-base underline underline-offset-2 text-teal-600"
+              >Read More...</a
+            >
+          </p>
+        </div>
+        <div
+          class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2"
+        >
+          <figure
+            class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain"
+          >
+            <img src="img/death_truck.png" alt="death_truck" />
+            <figcaption class="text-center text-slate-400">
+              Fig2. Death Truck
+            </figcaption>
+          </figure>
+          <p class="h-min self-center lg:text-xl text-justify">
+            The Death Truck is a sinister specter, a monstrous machine shrouded
+            in darkness and adorned with ominous symbols of doom. Its sinister
+            silhouette strikes fear into the hearts of its opponents, as it
+            prowls the arena like a predatory beast on the hunt. With
+            razor-sharp blades protruding from every angle and a menacing aura
+            that chills the air, the Death Truck leaves a trail of devastation
+            in its wake, harvesting souls with merciless efficiency.&nbsp;<a
+              href="death_detail.html"
+              class="text-base underline underline-offset-2 text-teal-600"
+              >Read More...</a
+            >
+          </p>
+        </div>
 
-            <div
-                class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2">
-                <figure class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain">
-                    <img src="img/hungry_truck.png" alt="hungry_truck" />
-                    <figcaption class="text-center text-slate-400">
-                        Fig3. Hungry Truck
-                    </figcaption>
-                </figure>
-                <p class="h-min self-center lg:text-xl text-justify">
-                    The Death Truck is a sinister specter, a monstrous machine shrouded in darkness and adorned with
-                    ominous symbols of doom. Its sinister silhouette strikes fear into the hearts of its opponents, as
-                    it prowls the arena like a predatory beast on the hunt. With razor-sharp blades protruding from
-                    every angle and a menacing aura that chills the air, the Death Truck leaves a trail of devastation
-                    in its wake, harvesting souls with merciless efficiency.&nbsp;<a href="#"
-                        class="text-base underline underline-offset-2 text-teal-600">Read
-                        More...</a>
-                </p>
-            </div>
+        <div
+          class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2"
+        >
+          <figure
+            class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain"
+          >
+            <img src="img/hungry_truck.png" alt="hungry_truck" />
+            <figcaption class="text-center text-slate-400">
+              Fig3. Hungry Truck
+            </figcaption>
+          </figure>
+          <p class="h-min self-center lg:text-xl text-justify">
+            The Hungry Truck is a ravenous monstrosity, its gaping maw lined
+            with rows of razor-sharp teeth and its insatiable appetite for
+            destruction. Fuelled by an endless hunger for chaos and mayhem, it
+            devours everything in its path with voracious fervor, leaving
+            nothing but destruction in its wake. With a roar that echoes through
+            the arena like a primal scream, the Hungry Truck seeks to sate its
+            insatiable appetite, consuming obstacles and opponents alike with
+            insidious glee.&nbsp;<a
+              href="hungry_detail.html"
+              class="text-base underline underline-offset-2 text-teal-600"
+              >Read More...</a
+            >
+          </p>
+        </div>
 
-            <div
-                class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2">
-                <figure class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain">
-                    <img src="img/low_truck.png" alt="low_truck" />
-                    <figcaption class="text-center text-slate-400">
-                        Fig4. Low Ride Truck
-                    </figcaption>
-                </figure>
-                <p class="h-min self-center lg:text-xl text-justify">
-                    The Low Ride Truck is a sleek and stylish marvel, its sleek chassis hugging the ground with a
-                    menacingly low stance. With custom paint jobs and chrome accents that gleam in the sun, it exudes an
-                    air of urban cool and streetwise swagger. Despite its sleek appearance, the Low Ride Truck is a
-                    force to be reckoned with, its powerful engine and precision handling making it a formidable
-                    competitor on the battlefield. With its thunderous roar and lightning-fast reflexes, it dominates
-                    the arena with style and finesse.&nbsp;
-                    <a href="#" class="text-base underline underline-offset-2 text-teal-600">Read
-                        More...</a>
-                </p>
-            </div>
+        <div
+          class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2"
+        >
+          <figure
+            class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain"
+          >
+            <img src="img/low_truck.png" alt="low_truck" />
+            <figcaption class="text-center text-slate-400">
+              Fig4. Low Ride Truck
+            </figcaption>
+          </figure>
+          <p class="h-min self-center lg:text-xl text-justify">
+            The Low Ride Truck is a sleek and stylish marvel, its sleek chassis
+            hugging the ground with a menacingly low stance. With custom paint
+            jobs and chrome accents that gleam in the sun, it exudes an air of
+            urban cool and streetwise swagger. Despite its sleek appearance, the
+            Low Ride Truck is a force to be reckoned with, its powerful engine
+            and precision handling making it a formidable competitor on the
+            battlefield. With its thunderous roar and lightning-fast reflexes,
+            it dominates the arena with style and finesse.&nbsp;
+            <a
+              href="lowride_detail.html"
+              class="text-base underline underline-offset-2 text-teal-600"
+              >Read More...</a
+            >
+          </p>
+        </div>
 
-            <div
-                class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2">
-                <figure class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain">
-                    <img src="img/rocket_truck.png" alt="rocket_truck" />
-                    <figcaption class="text-center text-slate-400">
-                        Fig5. The Rocket Truck
-                    </figcaption>
-                </figure>
-                <p class="h-min self-center lg:text-xl text-justify">
-                    The Rocket Truck is a marvel of modern engineering, a behemoth adorned with sleek aerodynamic fins
-                    and thrusters that propel it to astonishing speeds. With flames licking at its heels and a deafening
-                    roar that echoes through the arena, the Rocket Truck blazes a trail of destruction, leaving
-                    competitors in its fiery wake. Its explosive acceleration and nimble maneuverability make it a force
-                    to be reckoned with, as it soars through the air with the grace of a celestial comet.&nbsp;<a
-                        href="#" class="text-base underline underline-offset-2 text-teal-600">Read
-                        More...</a>
-                </p>
-            </div>
+        <div
+          class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2"
+        >
+          <figure
+            class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain"
+          >
+            <img src="img/rocket_truck.png" alt="rocket_truck" />
+            <figcaption class="text-center text-slate-400">
+              Fig5. Rocket Truck
+            </figcaption>
+          </figure>
+          <p class="h-min self-center lg:text-xl text-justify">
+            The Rocket Truck is a marvel of modern engineering, a behemoth
+            adorned with sleek aerodynamic fins and thrusters that propel it to
+            astonishing speeds. With flames licking at its heels and a deafening
+            roar that echoes through the arena, the Rocket Truck blazes a trail
+            of destruction, leaving competitors in its fiery wake. Its explosive
+            acceleration and nimble maneuverability make it a force to be
+            reckoned with, as it soars through the air with the grace of a
+            celestial comet.&nbsp;<a
+              href="rocket_detail.html"
+              class="text-base underline underline-offset-2 text-teal-600"
+              >Read More...</a
+            >
+          </p>
+        </div>
 
-            <div
-                class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2">
-                <figure class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain">
-                    <img src="img/rusty_truck.png" alt="rusty_truck" />
-                    <figcaption class="text-center text-slate-400">
-                        Fig6. The Rust Truck
-                    </figcaption>
-                </figure>
-                <p class="h-min self-center lg:text-xl text-justify">
-                    The Rust Truck is a weathered titan, its once gleaming metallic exterior now corroded and worn by
-                    the elements. Covered in layers of rust and decay, it exudes an aura of rugged resilience and
-                    untamed ferocity. Despite its aged appearance, the Rust Truck remains a formidable force on the
-                    battlefield, its engine roaring with the fury of a thousand storms as it tears through obstacles
-                    with relentless determination.&nbsp;<a href="#"
-                        class="text-base underline underline-offset-2 text-teal-600">Read
-                        More...</a>
-                </p>
-            </div>
-        </section>
-        <hr class="my-14 w-1/3 mx-auto" />
-        <!-- Galley -->
-        <section id="gallery"
-            class="scroll-m-5 mt-7 w-11/12 lg:w-9/12 md:w-10/122 bg-slate-900 mx-auto px-8 py-10 rounded-md mb-4">
-            <!-- Heading -->
-            <h2 class="text-4xl font-bold text-center mb-14">Gallery</h2>
-            <!-- pics -->
-            <div class="grid grid-flow-row lg:grid-cols-8 md:grid-cols-6 grid-cols-4 xl:grid-cols-10 gap-3 md:gap-5">
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg1.jpeg" alt="Truck Image 1" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg2.jpeg" alt="Truck Image 2" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg3.jpeg" alt="Truck Image 3" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg4.jpeg" alt="Truck Image 4" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg5.jpeg" alt="Truck Image 5" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg6.jpeg" alt="Truck Image 6" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg7.jpeg" alt="Truck Image 7" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg8.jpeg" alt="Truck Image 8" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg9.jpeg" alt="Truck Image 9" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg10.jpeg" alt="Truck Image 10" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg11.jpeg" alt="Truck Image 11" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg12.jpeg" alt="Truck Image 12" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg13.jpeg" alt="Truck Image 13" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg14.jpeg" alt="Truck Image 14" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg15.jpeg" alt="Truck Image 15" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg16.jpeg" alt="Truck Image 16" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg17.jpeg" alt="Truck Image 17" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg18.jpeg" alt="Truck Image 18" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg19.jpeg" alt="Truck Image 19" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg20.jpeg" alt="Truck Image 20" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg21.jpeg" alt="Truck Image 21" />
-                </div>
-                <div class="border-2 sm:border-4 border-stone-200" onclick="popUp(this)">
-                    <img class="cursor-pointer hover:opacity-50" src="img/bg22.jpeg" alt="Truck Image 22" />
-                </div>
-            </div>
-        </section>
+        <div
+          class="mt-10 sm:mt-7 md:mt-5 flex sm:row-direction flex-col items-center md:justify-start md:gap-6 gap-2"
+        >
+          <figure
+            class="md:w-4/6 min-w-[200px] max-w-[200px] sm:max-w-max object-contain"
+          >
+            <img src="img/rusty_truck.png" alt="rusty_truck" />
+            <figcaption class="text-center text-slate-400">
+              Fig6. Rust Truck
+            </figcaption>
+          </figure>
+          <p class="h-min self-center lg:text-xl text-justify">
+            The Rust Truck is a weathered titan, its once gleaming metallic
+            exterior now corroded and worn by the elements. Covered in layers of
+            rust and decay, it exudes an aura of rugged resilience and untamed
+            ferocity. Despite its aged appearance, the Rust Truck remains a
+            formidable force on the battlefield, its engine roaring with the
+            fury of a thousand storms as it tears through obstacles with
+            relentless determination.&nbsp;<a
+              href="rust_detail.html"
+              class="text-base underline underline-offset-2 text-teal-600"
+              >Read More...</a
+            >
+          </p>
+        </div>
+      </section>
+      <!-- Testimony -->
+      <section class="w-8/12 lg:w-7/12 mx-auto my-28 relative">
+        <p
+          class="text-2xl sm:text-3xl text-justify md:text-left mt-2 text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:-translate-x-16 before:-translate-y-10 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-16 after:translate-y-5"
+        >
+          love for these towering titans goes beyond just the thrill of the
+          chase. For the Monster Truck Vets, these machines are more than just
+          vehicles—they're a way of life. Each truck tells a story, with every
+          dent and scrape a badge of honor earned in the heat of battle.
+        </p>
+      </section>
+      <!-- Galley -->
+      <section
+        id="gallery"
+        class="scroll-m-5 mt-7 w-11/12 lg:w-9/12 md:w-10/12 bg-slate-900 mx-auto px-8 py-10 rounded-md mb-4"
+      >
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold text-center mb-14">Gallery</h2>
+        <!-- pics -->
+        <div
+          class="grid grid-flow-row lg:grid-cols-8 md:grid-cols-6 grid-cols-4 xl:grid-cols-10 gap-3 md:gap-5"
+        >
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg1.jpeg"
+              alt="Truck Image 1"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg2.jpeg"
+              alt="Truck Image 2"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg3.jpeg"
+              alt="Truck Image 3"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg4.jpeg"
+              alt="Truck Image 4"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg5.jpeg"
+              alt="Truck Image 5"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg6.jpeg"
+              alt="Truck Image 6"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg7.jpeg"
+              alt="Truck Image 7"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg8.jpeg"
+              alt="Truck Image 8"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg9.jpeg"
+              alt="Truck Image 9"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg10.jpeg"
+              alt="Truck Image 10"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg11.jpeg"
+              alt="Truck Image 11"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg12.jpeg"
+              alt="Truck Image 12"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg13.jpeg"
+              alt="Truck Image 13"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg14.jpeg"
+              alt="Truck Image 14"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg15.jpeg"
+              alt="Truck Image 15"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg16.jpeg"
+              alt="Truck Image 16"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg17.jpeg"
+              alt="Truck Image 17"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg18.jpeg"
+              alt="Truck Image 18"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg19.jpeg"
+              alt="Truck Image 19"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg20.jpeg"
+              alt="Truck Image 20"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg21.jpeg"
+              alt="Truck Image 21"
+            />
+          </div>
+          <div
+            class="border-2 sm:border-4 border-stone-200"
+            onclick="popUp(this)"
+          >
+            <img
+              class="cursor-pointer hover:opacity-50"
+              src="img/bg22.jpeg"
+              alt="Truck Image 22"
+            />
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- Overlay for Lightbox -->
-    <div id="overlay"
-        class="fixed hidden align-middle h-screen w-screen justify-between flex-row px-5 bg-black bg-opacity-75 bottom-0 top-0 left-0 right-0 object-contain">
-        <img src="img/left.png" alt="left" onclick="changeImage()"
-            class="self-center max-h-20 cursor-pointer hover:opacity-50 hidden sm:inline-flex" />
-        <img src="img/bg1.jpeg" alt="image" class="self-center mx-auto max-h-[85vh] max-w-[70vw]" />
-        <img src="img/right.png" alt="right" onclick="changeImage()"
-            class="self-center max-h-20 cursor-pointer hover:opacity-50 hidden sm:inline-flex" />
+    <div
+      id="overlay"
+      class="fixed hidden align-middle h-screen w-screen justify-between flex-row px-5 bg-black bg-opacity-75 bottom-0 top-0 left-0 right-0 object-contain"
+    >
+      <img
+        src="img/left.png"
+        alt="left"
+        onclick="changeImage()"
+        class="self-center max-h-20 cursor-pointer hover:opacity-50 hidden sm:inline-flex"
+      />
+      <img
+        src="img/bg1.jpeg"
+        alt="image"
+        class="self-center mx-auto max-h-[85vh] max-w-[70vw]"
+      />
+      <img
+        src="img/right.png"
+        alt="right"
+        onclick="changeImage()"
+        class="self-center max-h-20 cursor-pointer hover:opacity-50 hidden sm:inline-flex"
+      />
     </div>
     <footer>
-        <div
-            class="flex items-center sm:flex-row flex-col flex-nowrap bg-theme-blue md:px-42 lg:px-52 px-10 justify-center min-h-10 flex-grow-0 sm:py-10 py-5 sm:gap-10 gap-5">
-            <div class="flex-[2]">
-                <h3 class="text-2xl lg:text-4xl text-bold">Monster's World</h3>
-                <p class="text-justify lg:text-xl">
-                    We are a group of Old School Truck Maniacs Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Laudantium quo, tempore voluptate
-                    aperiam sapiente quidem est exercitationem corporis! Voluptatum
-                    laboriosam ipsam incidunt mollitia consectetur dolorem cum,
-                    provident atque sed explicabo!
-                </p>
-            </div>
-            <div class="flex-1 w-full">
-                <h3 class="text-base lg:text-2xl text-bold">Site Map</h3>
-                <ul class="list-none lg:text-xl text-base">
-                    <li>
-                        <a href="#home" class="hover:text-slate-400 underline">Home</a>
-                    </li>
-                    <li>
-                        <a href="#fleet" class="hover:text-slate-400 underline">Fleet</a>
-                    </li>
-                    <li>
-                        <a href="#gallery" class="hover:text-slate-400 underline">Gallery</a>
-                    </li>
-                </ul>
-            </div>
+      <div
+        class="flex items-center sm:flex-row flex-col flex-nowrap bg-theme-blue md:px-42 lg:px-52 px-10 justify-center min-h-10 flex-grow-0 sm:py-10 py-5 sm:gap-10 gap-5"
+      >
+        <div class="flex-[2]">
+          <h3 class="text-2xl lg:text-4xl text-bold">Monster's World</h3>
+          <p class="text-justify lg:text-xl">
+            Monster Truck Vets, a group of seasoned veterans with a passion for
+            all things monster truck-related. With decades of collective
+            experience in the industry, these individuals have dedicated their
+            lives to the thrill of the arena and the roar of the crowd. Having
+            owned and operated numerous monster trucks over the years, the
+            Monster Truck Vets bring a wealth of knowledge and expertise to the
+            table. From building and customizing our own rigs to competing in
+            high-stakes events around the world.
+          </p>
         </div>
-        <p class="block text-center py-3 bg-slate-950">Copyrights &copy; 2024</p>
+        <div class="flex-1 w-full">
+          <h3 class="text-base lg:text-2xl text-bold">Site Map</h3>
+          <ul class="list-none lg:text-xl text-base">
+            <li>
+              <a href="#home" class="hover:text-slate-400 underline">Home</a>
+            </li>
+            <li>
+              <a href="#fleet" class="hover:text-slate-400 underline">Fleet</a>
+            </li>
+            <li>
+              <a href="#gallery" class="hover:text-slate-400 underline"
+                >Gallery</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="block text-center py-3 bg-slate-950">Copyrights &copy; 2024</p>
     </footer>
 
     <script src="assets/js/index.js"></script>
-</body>
-
+  </body>
 </html>
