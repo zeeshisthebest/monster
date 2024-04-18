@@ -7,7 +7,7 @@
 
 A dynamic and visually stunning portfolio piece crafted to showcase skills in Tailwind CSS — a modern utility-first CSS framework. This project serves as a testament to proficiency in creating sleek, responsive, and user-friendly web interfaces using Tailwind's extensive set of utility classes.
 <br><br>
-:point_right: <a href="https://zeeshisthebest.github.io/mosnter/build/index.html">Link to the HomePage</a>
+:point_right: <a href="https://zeeshisthebest.github.io/mosnter/build/index.html" target="_blank">Link to the HomePage</a>
 
 <h3>Key features of the Project include:</h3>
 
