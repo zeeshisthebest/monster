@@ -95,6 +95,38 @@ const initApp = () => {
 
     hamburgerBtn.addEventListener('click', toggleMenu);
     nav.addEventListener('click', toggleMenu);
+
+    const HEAD = "Welcome to the ";
+    const COLOR_HEAD = "World of Monsters";
+    const HEADING_ELEM = document.getElementById("head");
+    const HEADING_COLOR_ELEM = document.getElementById("color_head");
+    let i = 0;
+    const REPEAT_TIME = 150;
+
+    function typeHeading () {
+        HEADING_ELEM.innerHTML += HEAD.substring(i, i + 1);
+        i++;
+        if (i < HEAD.length) {
+            setTimeout(typeHeading, REPEAT_TIME);
+        } else {
+            i = 0;
+            typeHeading2();
+        }
+    }
+
+    function typeHeading2 () {
+        HEADING_COLOR_ELEM.innerHTML += COLOR_HEAD.substring(i, i + 1);
+        i++;
+        if (i < COLOR_HEAD.length) {
+            setTimeout(typeHeading2, REPEAT_TIME);
+        } else {
+            setTimeout(() => {
+                document.getElementById('cursor').classList.add('after:animate-cursor-blink');
+            }, 200);
+        }
+    }
+
+    typeHeading();
 }
 
 document.addEventListener('DOMContentLoaded', initApp);

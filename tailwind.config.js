@@ -13,6 +13,16 @@ module.exports = {
       },
       maxHeight: {
         'sect': "calc(100vh - 136px)",
+      },
+      keyframes: {
+        'cursor-blink': {
+          '0%': { opacity: '0%' },
+          // '50%': { opacity: '100%' },
+          "100%": { opacity: '100%' }
+        }
+      },
+      animation: {
+        'cursor-blink': 'cursor-blink 0.7s ease-in infinite'
       }
     },
   },
